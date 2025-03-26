@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { useState } from "react";
 
 const locationsData = [
@@ -29,7 +28,6 @@ const locationsData = [
   },
 ];
 
-
 export default function LocationClient() {
   const [expandedCity, setExpandedCity] = useState(null);
 
@@ -39,23 +37,6 @@ export default function LocationClient() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Bakery",
-            name: "Lushly Jelly",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "Jl. Jelly No. 123",
-              addressLocality: "Jakarta",
-              postalCode: "12345",
-            },
-            openingHours: "Mo-Sa 10:00-20:00",
-          }),
-        }}
-      />
       <div className="p-6 max-w-2xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-center text-pink-600 font-comic">
           Our Locations

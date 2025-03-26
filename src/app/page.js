@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Hero from "./components/Hero";
-import Products from "./components/Products";
-import CallToAction from "./components/CallToAction";
+import Hero from "./_components/Hero";
+import Products from "./_components/Products";
+import CallToAction from "./_components/CallToAction";
 
 export const metadata = {
   title: "Lushly Jelly - Dessert Jelly Premium & Sehat",
@@ -14,7 +14,7 @@ export const metadata = {
     "Minuman rendah kalori",
   ],
   alternates: {
-    canonical: "https://lushlyjelly.vercel.app",
+    canonical: "https://lushllyjelly.vercel.app/",
   },
 };
 
@@ -32,7 +32,7 @@ export default function Home() {
             "@type": "Bakery",
             name: "Lushly Jelly",
             description: "Toko dessert jelly premium dengan bahan alami",
-            image: "https://lushlyjelly.vercel.app/og-image.jpg",
+            image: "https://lushllyjelly.vercel.app/og-image.jpg",
           }),
         }}
       />

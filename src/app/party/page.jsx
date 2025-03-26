@@ -1,6 +1,6 @@
 import React from "react";
-import PackageInfo from "../components/PackageInfo";
-import PartyHero from "../components/PartyHero";
+import PackageInfo from "../_components/PackageInfo";
+import PartyHero from "../_components/PartyHero";
 
 export const metadata = {
   title: "Lushly Jelly untuk Acara Spesialmu",

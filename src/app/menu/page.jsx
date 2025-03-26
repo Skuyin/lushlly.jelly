@@ -1,5 +1,4 @@
-
-import MenuClient from "../components/menuClient";
+import MenuClient from "../_components/menuClient";
 
 export const metadata = {
   title: "Menu Lengkap - Lushly Jelly",

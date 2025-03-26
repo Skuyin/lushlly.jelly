@@ -8,6 +8,15 @@ export const metadata = {
     title: "Tentang Kami - Lushly Jelly",
     images: "/og-image.jpg",
   },
+  keywords: [
+    "About lushllyjelly",
+    "Jelly Enak",
+    "jelly buah",
+    "Minuman rendah kalori",
+  ],
+  alternates: {
+    canonical: "https://lushllyjelly.vercel.app/about",
+  },
 };
 
 const About = () => {

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 const CallToAction = () => {
   return (
@@ -10,8 +10,8 @@ const CallToAction = () => {
           <div className="flex-1 w-full">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.612010932659!2d106.9701056750384!3d-6.31459029367475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6992681fe69f47%3A0xf1f3e1284d370436!2sRuko%20Villa%20Nusa%20Indah%202%2C%20Jl.%20Vila%20Nusa%20Indah%2C%20Bojong%20Kulur%2C%20Kec.%20Gn.%20Putri%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016969!5e0!3m2!1sid!2sid!4v1742253616559!5m2!1sid!2sid"
-              width="100%"
-              height="350"
+              style={{ width: "100%" }} // Gunakan CSS
+              height="500"
               className="rounded-xl shadow-lg border-4 border-white"
               allowFullScreen
               loading="lazy"
