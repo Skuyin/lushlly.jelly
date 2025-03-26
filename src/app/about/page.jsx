@@ -1,10 +1,33 @@
-
-
 import React from "react";
+
+export const metadata = {
+  title: "Tentang Kami - Lushly Jelly",
+  description:
+    "Lushly Jelly berkomitmen menyajikan jelly minuman & dessert premium dengan 100% bahan alami sejak 2025.",
+  openGraph: {
+    title: "Tentang Kami - Lushly Jelly",
+    images: "/og-image.jpg",
+  },
+};
 
 const About = () => {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Lushly Jelly",
+            foundingDate: "2025-05-15",
+            founder: {
+              "@type": "Person",
+              name: "Chef Lushly",
+            },
+          }),
+        }}
+      />
       <div className="bg-gradient-to-b  py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Hero Section */}
